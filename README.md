@@ -4,7 +4,7 @@
 
 起点中文网cookie形如以下形式：`hiijack=0; _csrfToken=sfdfsfew; newstatisticUUID=313_231; ywkey=fsdafsd; ywguid=43972834`，具体获取方式参见https://blog.csdn.net/weixin_44343074/article/details/105104206
 
-使用格式如下：`python 起点.py dump 大国体育 -c "$COOKIE"`，请将$COOKIE换成你自己的cookie，如`python 起点.py dump 大国体育 -c "hiijack=0; _csrfToken=sfdfsfew; newstatisticUUID=313_231; ywkey=fsdafsd; ywguid=43972834"`
+使用格式如下：`python 起点.py dump $BOOK -c "$COOKIE"`，请将$COOKIE换成你自己的cookie，$BOOK换成你要爬取的书名/书号，如`python 起点.py dump 当外神降临异界之时 -c "hiijack=0; _csrfToken=sfdfsfew; newstatisticUUID=313_231; ywkey=fsdafsd; ywguid=43972834"`
 
 ### todo list
 
